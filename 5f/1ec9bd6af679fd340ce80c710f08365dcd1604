@@ -1,0 +1,42 @@
+bkg/docker/db/postgresql.conf
+  s_4dc460dbf339a2::t_33afedeccd3190 43-46
+  s_4dc460dbf339a2::t_c1a2a3d6629b6b 40-42
+  s_4dc460dbf339a2::t_2435c6a166fcb4 47-49
+bkg/docker/db/Dockerfile
+  s_4dc460dbf339a2::t_ad49efd1b4a643 1-33
+  s_612c80c18e67f7::t_a31bf0e087f38f 34-39
+bkg/docker/db/entrypoint.sh
+  s_612c80c18e67f7::t_5cd94b2bbe3b59 1-70
+bkg/docker/db/init/00-roles.sql
+  s_612c80c18e67f7::t_b87e0766306c45 1-50
+bkg/docker/db/init/01-extensions.sql
+  s_612c80c18e67f7::t_86a636709dfe02 1-51
+bkg/docker/db/pgjwt/pgjwt--0.2.0.sql
+  s_612c80c18e67f7::t_01861848cb29c6 1-80
+bkg/docker/db/pgjwt/pgjwt.control
+  s_612c80c18e67f7::t_6dbd5a62482ea0 1-6
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "5f1ec9bd6af679fd340ce80c710f08365dcd1604",
+  "prompts": {},
+  "sessions": {
+    "s_4dc460dbf339a2": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_e163f433bffe5t2PzgPpubA64u",
+        "model": "big-pickle"
+      },
+      "human_author": "bkg <bkg@skill.eysho.info>"
+    },
+    "s_612c80c18e67f7": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "9c19804a-f1ae-422b-9e06-63f88befc3ac",
+        "model": "claude-sonnet-5-5"
+      },
+      "human_author": "bkg <bkg@skill.eysho.info>"
+    }
+  }
+}
